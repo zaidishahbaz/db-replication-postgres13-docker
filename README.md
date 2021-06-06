@@ -33,9 +33,12 @@ for example if you check the standy logs, you'll see the below stating db is acc
 
 
 run the below command for both your master and standby replicas running on docker and replace the name
+```
 docker exec -it <name> psql -U postgres
+```
 
-then execute the below query 
+
+then execute the below query to check if replication was successful
 ```
 select * from pg_stat_replication;
 ```
