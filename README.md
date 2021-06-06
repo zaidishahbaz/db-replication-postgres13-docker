@@ -1,6 +1,7 @@
 # Small poc to test db-replication in postgres 13 
 
-You'll need docker and postgress setup on your local
+You'll need docker and postgress setup on your local.
+There are two dbs the first the master db and the second is the backup db, this poc is basically about synchronised replication between two dbs is postgresql 13
 
 Run the below command to create your master and standy postgres instances
 
